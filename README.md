@@ -21,9 +21,9 @@ This repository contains the fundamental mathematical theories and implementatio
 - **Figures**: Visualizations of fractal dimensions and mathematical concepts
 
 ## Related Repositories
-- [Core-Theory](https://github.com/username/Core-Theory): Core theoretical framework
-- [Advanced-Theoretical-Framework](https://github.com/username/Advanced-Theoretical-Framework): Advanced theoretical models
-- [Physical-Applications](https://github.com/username/Physical-Applications): Physical applications
+- [Core-Theory](https://github.com/dpsnet/Core-Theory): Core theoretical framework
+- [Advanced-Theoretical-Framework](https://github.com/dpsnet/Advanced-Theoretical-Framework): Advanced theoretical models
+- [Physical-Applications](https://github.com/dpsnet/Physical-Applications): Physical applications
 
 ## License
 MIT License
