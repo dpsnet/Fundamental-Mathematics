@@ -1,6 +1,11 @@
 """
 M-0.14.1: 额外维度数学理论验证
 验证高能极限下的额外维度存在性和紧致化机制
+
+【概念澄清】
+- 拓扑维度：时空的实体维度，固定为4维（3空间+1时间）
+- 谱维度：场在时空中传播的有效维度表现，随能标变化
+- 本模块验证的 d_obs(E) 是"谱维表现"，而非拓扑维度
 """
 
 import numpy as np
@@ -17,7 +22,8 @@ class ExtraDimensionTheory:
     @staticmethod
     def observable_dimensions(energy, d_uv=10):
         """
-        计算给定能标下的可观测维度数
+        计算给定能标下场传播表现出的有效谱维
+        【注意】这是场传播的表现维度，不是拓扑维度
         使用对数形式确保宽范围的能标依赖
         """
         E_ratio = energy / ExtraDimensionTheory.PLANCK_ENERGY
@@ -41,9 +47,10 @@ class ExtraDimensionTheory:
     
     @staticmethod
     def verify_dimension_energy_relation():
-        """验证能标-维度关系定理"""
+        """验证能标-谱维表现关系定理（非拓扑维度）"""
         print("=" * 80)
-        print("验证 4.1: 能标-维度关系定理")
+        print("验证 4.1: 能标-谱维表现关系定理")
+        print("【注意】验证的是场传播表现，拓扑维度始终为4")
         print("=" * 80)
         
         print(f"\n假设紫外谱维 d_s,UV = 10 (弦理论典型值)")
