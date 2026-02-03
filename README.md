@@ -9,15 +9,15 @@ This repository contains the fundamental mathematical theories and implementatio
 - **M-0.2**: Inner Product Space and Orthogonal Combination Representation Theory
 - **M-0.3**: Unified Fractal Dimension Expression and Ramanujan Formula Mapping
   - M-0.3.1: Theoretical Analysis of e and π-δ Proximity Relationship Based on Unified Fractal Dimension Expression
-  - M-0.3.2: Ramanujan Formula and In-depth Study of e and π-δ Proximity Relationship
-  - M-0.3.3: Experimental Feasibility Analysis Based on Inner Product Space Orthogonal Combination Representation
-  - M-0.3.4: In-depth Study of Quantization Theory for Rational Coefficients and Terms
+  - M-0.3.2: In-depth Study of the Connection Between Ramanujan's Formula and the Proximity Relationship between e and π-δ
+  - M-0.3.3: Experimental Feasibility Analysis of the Proximity Relationship between e and π-δ Based on Inner Product Space Orthogonal Combination Representation
+  - M-0.3.4: In-depth Study of Quantization Theory for Rational Coefficients and Rational Terms
   - M-0.3.5: Spectral Dimension Flow and Four-dimensional Implementation of High-dimensional Spacetime
-- **M-0.4**: Prime Number Generating Functions and Modular Forms
-- **M-0.5**: Fast Convergence Algorithms and Spectral Dimension Flow
-- **M-0.6**: Fractal Geometry Interpretation of Goldbach Conjecture
-- **M-0.7**: In-depth Study of Spectral Dimension Flow Theory
-- **M-0.8**: Basic Derivation of 4D Minkowski Spacetime
+- **M-0.4**: Prime Number Generating Function and Modular Forms
+- **M-0.5**: Fast Convergence Algorithm and Spectral Dimension Flow
+- **M-0.6**: Fractal Geometric Interpretation of Goldbach Conjecture
+- **M-0.7**: In-depth Study and Generalization of Spectral Dimension Flow Theory
+- **M-0.8**: Fundamental Derivation of 4-dimensional Minkowski Spacetime
 - **M-0.9**: PTE Problem and Fractal Geometry Connections
   - M-0.9.2: Modular Form Theory and PTE Solution Generating Function Research
   - M-0.9.3: Spectral Dimension Flow and PTE Solution Scale Change Model Research
@@ -29,8 +29,8 @@ This repository contains the fundamental mathematical theories and implementatio
 - **M-0.14**: Origin of Spacetime Dimensions - Mathematical Necessity of 4D
   - M-0.14.1: Mathematical Theory of Spectral Dimension Extension at High Energy Limit
   - M-0.14.2: Mathematical Theory of Time Quantization
-  - M-0.14.3: Mathematical Theory of Multi-time Instability
-  - M-0.14.4: Mathematical Analysis of Alternative 4D Spacetime Forms
+  - M-0.14.3: Mathematical Theory of Multi-Time Instability
+  - M-0.14.4: Mathematical Analysis of Alternative Four-Dimensional Spacetime Forms
 
 ### Implementation Files
 - **Source Code**: Python implementations for mathematical verification
@@ -39,19 +39,34 @@ This repository contains the fundamental mathematical theories and implementatio
 
 ### Language Versions
 All papers in this repository are available in both Chinese and English versions:
-- **Chinese versions**: Files with `.md` extension (e.g., M-0.3.1.md)
-- **English versions**: Files with `_EN.md` extension (e.g., M-0.3.1_EN.md)
+- **Chinese versions**: Files with `_cn.md` extension
+- **English versions**: Files with `_EN.md` or `_en.md` extension
 
 ## Related Repositories
 - [Core-Theory](https://github.com/dpsnet/Core-Theory): Core theoretical framework
 - [Advanced-Theoretical-Framework](https://github.com/dpsnet/Advanced-Theoretical-Framework): Advanced theoretical models
 - [Physical-Applications](https://github.com/dpsnet/Physical-Applications): Physical applications
 
-## License
-CC BY 4.0 License
+## Copyright Notice
+
+This work is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License.
+
+### You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+### Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+### Related Links:
+
+- Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+- Simplified Chinese summary: https://creativecommons.org/licenses/by/4.0/deed.zh
 
 ---
 
-## 📚 相关文档
-
-- [项目文档中心](../Theory-Documentation) - 理论规划、概念澄清、术语标准
+**Author**: Wang Bin  
+**Email**: wang.bin@foxmail.com  
+**Project Homepage**: [GitHub Repositories]
