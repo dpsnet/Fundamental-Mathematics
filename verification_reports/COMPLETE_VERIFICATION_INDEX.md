@@ -157,4 +157,4 @@ python verify_extended_modules.py
 
 **作者**: 王斌  
 **邮箱**: wang.bin@foxmail.com  
-**项目主页**: [GitHub Repositories]
+**项目主页**: [Fundamental-Mathematics](https://github.com/dpsnet/Fundamental-Mathematics)
