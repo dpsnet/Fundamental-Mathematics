@@ -1,0 +1,230 @@
+% 维度数学理论论文模板
+% Mathematical Theory of Dimension - Paper Template
+
+\documentclass[12pt,a4paper]{amsart}
+
+% 基础包
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+% 页面设置
+\geometry{margin=2.5cm}
+
+% 定理环境
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{assumption}[theorem]{Assumption}
+
+% 引用设置
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=red,
+    urlcolor=blue
+}
+
+% 标题信息（由具体论文填充）
+\title[Short Title]{Full Title of the Paper}
+\author[Author Name]{Author Name}
+\address{Institution Address}
+\email{email@institution.edu}
+\date{\today}
+
+% 自定义命令
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\HH}{\mathcal{H}}
+\newcommand{\eps}{\varepsilon}
+\DeclareMathOperator{\dimH}{dim_H}
+\DeclareMathOperator{\dimB}{dim_B}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\tr}{tr}
+
+\begin{document}
+
+\begin{abstract}
+% 摘要（150-250词）
+This paper establishes rigorous mathematical results on [topic]. 
+We prove [main theorem] and provide numerical validation. 
+Our work corrects previous claims in the M-0 series and provides 
+a solid foundation for [application].
+
+\textbf{Keywords:} keyword1, keyword2, keyword3, keyword4
+\end{abstract}
+
+\maketitle
+
+\tableofcontents
+
+%==============================================================================
+\section{Introduction}\label{sec:intro}
+%==============================================================================
+
+\subsection{Background}
+[背景介绍]
+
+\subsection{Main Results}
+[主要结果陈述]
+
+\begin{theorem}[Main Theorem]\label{thm:main}
+Statement of the main theorem.
+\end{theorem}
+
+\subsection{Relation to Previous Work}
+[与先前工作的关系，特别是 M-0 系列的纠正]
+
+%==============================================================================
+\section{Preliminaries}\label{sec:prelim}
+%==============================================================================
+
+\subsection{Notation}
+[符号定义]
+
+\subsection{Key Definitions}
+[关键定义]
+
+\begin{definition}[Key Concept]\label{def:key}
+Definition of the key concept.
+\end{definition}
+
+%==============================================================================
+\section{Main Theory}\label{sec:main}
+%==============================================================================
+
+[主要理论内容]
+
+\begin{theorem}[Important Result]\label{thm:important}
+Statement of an important result.
+\end{theorem}
+
+\begin{proof}
+Proof of the theorem.
+\end{proof}
+
+\begin{corollary}[Corollary]\label{cor:corollary}
+Statement of corollary.
+\end{corollary}
+
+%==============================================================================
+\section{Numerical Validation}\label{sec:numerical}
+%==============================================================================
+
+[数值验证部分，如适用]
+
+\begin{table}[htbp]
+\centering
+\caption{Numerical Results}\label{tab:numerical}
+\begin{tabular}{ccc}
+\toprule
+Parameter & Value & Error \\
+\midrule
+$\alpha$ & 0.5 & $<0.01$ \\
+$A$ & 1.5 & $<0.1$ \\
+$d^*$ & 0.617 & $2.8\%$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%==============================================================================
+\section{Applications}\label{sec:applications}
+%==============================================================================
+
+[应用部分]
+
+%==============================================================================
+\section{Conclusion}\label{sec:conclusion}
+%==============================================================================
+
+[总结]
+
+\subsection*{Acknowledgments}
+We acknowledge the inspiration from the M-0 series while correcting 
+its mathematical inaccuracies. The rigorous foundation of this work 
+is based on classical mathematical literature.
+
+%==============================================================================
+\bibliographystyle{amsplain}
+\begin{thebibliography}{99}
+
+\bibitem{JonssonWallin1984}
+A. Jonsson and H. Wallin,
+\textit{Function spaces on subsets of $\mathbb{R}^n$},
+Math. Rep. 2 (1984), no. 1, xiv+221.
+
+\bibitem{Borwein2002}
+P. Borwein,
+\textit{The Prouhet-Tarry-Escott problem},
+Springer, 2002.
+
+\bibitem{HindrySilverman2000}
+M. Hindry and J. Silverman,
+\textit{Diophantine geometry},
+Springer-Verlag, New York, 2000.
+
+\bibitem{Lapidus2013}
+M. L. Lapidus and M. van Frankenhuijsen,
+\textit{Fractal geometry, complex dimensions and zeta functions},
+Second edition, Springer, New York, 2013.
+
+\bibitem{Triebel1997}
+H. Triebel,
+\textit{Fractals and spectra},
+Birkh\"auser Verlag, Basel, 1997.
+
+\bibitem{Valiant1979}
+L. G. Valiant,
+The complexity of computing the permanent,
+\textit{Theoret. Comput. Sci.} 8 (1979), no. 2, 189--201.
+
+\bibitem{MulmuleySohoni2001}
+K. Mulmuley and M. Sohoni,
+Geometric complexity theory. I. An approach to the P vs. NP and related problems,
+\textit{SIAM J. Comput.} 31 (2001), no. 2, 496--526.
+
+\bibitem{Kigami2001}
+J. Kigami,
+\textit{Analysis on fractals},
+Cambridge University Press, Cambridge, 2001.
+
+\bibitem{Wilson1974}
+K. G. Wilson,
+Confinement of quarks,
+\textit{Phys. Rev. D} 10 (1974), 2445--2459.
+
+\bibitem{Schmidt1972}
+W. M. Schmidt,
+Norm form equations,
+\textit{Ann. of Math.} (2) 96 (1972), 526--551.
+
+\bibitem{DiamondShurman2005}
+F. Diamond and J. Shurman,
+\textit{A first course in modular forms},
+Springer, New York, 2005.
+
+\bibitem{GawedzkiKupiainen1986}
+K. Gawedzki and A. Kupiainen,
+Asymptotic freedom beyond perturbation theory,
+In: Critical phenomena, random systems, gauge theories (Les Houches, 1984), 
+North-Holland, Amsterdam, 1986, 185--292.
+
+\end{thebibliography}
+
+\end{document}
